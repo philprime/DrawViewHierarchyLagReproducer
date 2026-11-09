@@ -1,0 +1,24 @@
+# Build output
+/.build/
+/build/
+/DerivedData/
+
+# Instruments recordings and exported samples
+/Traces/
+*.trace/
+*.trace.cpu.xml
+*.trace.signposts.xml
+
+# Local screenshot
+/screenshot.png
+
+# Xcode user settings
+xcuserdata/
+*.xcuserstate
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS metadata
+.DS_Store
