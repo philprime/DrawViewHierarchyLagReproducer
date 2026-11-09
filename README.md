@@ -3,7 +3,7 @@
 A standalone app for investigating the cost of UIKit's
 `UIView.drawHierarchy(in:afterScreenUpdates:)` when capturing a simple onscreen
 window roughly once per second. It is intended as a minimal project attachment
-for an Apple Feedback report.
+for Apple Feedback report **FB25502014**.
 
 The reproducer contains no Sentry SDK, image encoding, disk writes, or networking
 in its capture path. SwiftUI lays out the title, status text, pause button, and
